@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+#main .nav{
+    height: 11vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-left img{
+    padding: 20px 55px;
+}
+.nav-right{
+    display: flex;
+    position: relative;
+    right: 60px;
+    gap: 20px;
+}
+.nav-right a{
+    text-decoration: none;
+   /* padding: 10px; */
+   color: black;
+    cursor: pointer;
+   padding-top: 20px;
+}
+.bili{
+    color: white;
+    height: 6.5vh;
+    width: 15vw;
+    background-color: rgb(12, 6, 6);
+    border-radius: 50px;
+    margin: 10px;
+}
+.bili p{
+    padding-left: 29px;
+    padding-top:11px;
+}
+.bili img{
+    position: relative;
+    top: -21.5px;
+    left: 190px;
+}
+.hero{
+    height: 80vh;
+    width: 87vw;
+    position: relative;
+    left:10.5rem;
+    top: 2rem;
+}
+.hero-right img{
+    height: 590px;
+    width: 800px;
+    position: relative;
+    float: right;
+    top:-20px;
+}
+.hero-left h2{
+    position: absolute;
+    width: 30vw;
+    top:49px;
+    /* word-spacing: 10px; */
+    letter-spacing: 2px;
+    font-size: 7.5vh;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 8vh;
+}
+.hero-left p{
+    width: 32vw;
+    position: absolute;
+    top: 40vh;font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    line-height: 3vh;
+}
+.hero-left .bilo {
+    color: rgb(197, 104, 104);
+    height: 6.5vh;
+    width: 15vw;
+    background-color: rgb(233, 16, 16);
+    border-radius: 50px;
+    margin: 10px;
+    position: relative;
+    top:58vh;
+}
+.bilo img{
+    position: relative;
+    top: -21.5px;
+    left: 180px;
+} 
+.bilo h5{
+    color: black;
+    padding-left: 29px;
+    padding-top:15px;
+}
+.bottom{
+    height:15vh;
+    width:30vw;
+    position:absolute;
+    top: 67vh;
+    background-color: #ffffff;
+}
+.bottom img{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 9px;
+    left: 9px;
+}
+.bottom h5{
+    color: black;
+    position: absolute;
+    width: 40vh;
+    font-size: 2.5vh;
+    left: 230px;
+    top: 10px;
+}
+@media screen and (max-width:400px){
+  body{
+    background-color:rgb(250,250,250);
+  } 
+  .nav-left{
+position: relative;
+left: 45px;
+top: 50px;
+
+
+  }
+  .nav-right{
+    display: none;
+  }
+  .hero{
+    height: 100vh;
+    width: 100vw;
+  }
+  .hero-left h2{
+ font-size: 5vh;
+ line-height: 35px;
+ width: 350px;
+ position: relative;
+ left: -120px;
+ color: #3E54A3;
+top:10px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+letter-spacing: 2px;
+
+}
+.hero-left p{
+    width: 340px;
+    position: relative;
+    left:-120px;
+    top:20px;
+    font-weight: 100;
+    opacity: 80%;
+}
+.hero-left .bilo {
+    top: 63vh;
+    left: -16vh;
+    height: 6.5vh;
+    width: 60vw;
+}
+.bottom{
+    position: absolute;
+    height: 30vh;
+    width: 10vw;
+    top: 750px;
+    left: -130px;
+
+
+}
+.bottom .img{
+    object-fit: cover;
+    height: 50%;
+    width: 100%;
+    left: -10px;
+
+}
+.bottom h5{
+ 
+    top: 150px;
+    left: 10px;
+    line-height: 30px;
+    font-weight:400 ;
+    letter-spacing:0.5px;
+
+
+}
+  .hero-right{
+    height: 30vh;
+    width: 50vh;
+    /* background-color: black; */
+    position: relative;
+    top:170px;
+    left: -150px;
+    overflow: hidden;
+    /* display:  none; */
+    /* height: 10vh;
+    width:10vw;
+    position: relative;
+    left:200px; */
+  }
+  .hero-right img{
+    /* object-fit: cover,contain; */
+    position: relative;
+    height:105%;
+    width: 105%;
+    left: 10px;
+  }
+
+
+}
+@media screen and (max-width:600px){
+  body{
+    background-color:rgb(250,250,250);
+  } 
+  .nav-left{
+position: relative;
+left: 45px;
+top: 50px;
+
+
+  }
+  .nav-right{
+    display: none;
+  }
+  .hero{
+    height: 100vh;
+    width: 100vw;
+  }
+  .hero-left h2{
+ font-size: 5vh;
+ line-height: 35px;
+ width: 350px;
+ position: relative;
+ left: -120px;
+ color: #3E54A3;
+top:10px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+letter-spacing: 2px;
+
+}
+.hero-left p{
+    width: 340px;
+    position: relative;
+    left:-120px;
+    top:20px;
+    font-weight: 100;
+    opacity: 80%;
+}
+.hero-left .bilo {
+    top: 63vh;
+    left: -16vh;
+    height: 6.5vh;
+    width: 60vw;
+}
+.bottom{
+    position: absolute;
+    height: 30vh;
+    width: 80vw;
+    top: 750px;
+    left: -130px;
+
+
+}
+.bottom .img{
+    object-fit: cover;
+    height: 50%;
+    width: 100%;
+    left: -10px;
+
+}
+.bottom h5{
+ 
+    top: 150px;
+    left: 10px;
+    line-height: 30px;
+    font-weight:400 ;
+    letter-spacing:0.5px;
+
+
+}
+  .hero-right{
+    height: 30vh;
+    width: 50vh;
+    /* background-color: black; */
+    position: relative;
+    top:170px;
+    left: -150px;
+    overflow: hidden;
+    /* display:  none; */
+    /* height: 10vh;
+    width:10vw;
+    position: relative;
+    left:200px; */
+  }
+  .hero-right img{
+    /* object-fit: cover,contain; */
+    position: relative;
+    height:105%;
+    width: 105%;
+    left: 10px;
+  }
+
+
+}
